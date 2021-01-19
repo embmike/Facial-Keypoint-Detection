@@ -9,19 +9,19 @@ Likewise the computer vision method hair feature-based cascade uses these featur
     
 ### Examples
 
-**Detect all faces using Haar Cascade Classifiers using OpenCV**
++ **Detect all faces using Haar Cascade Classifiers using OpenCV**
 ![Cascade Classifiers Images](/output_images/cascade_classifier.png "Detect all faces using Haar Cascade Classifiers using OpenCV")   
 
-**Detect facial keypoint with a Convolutional Neural Network**
++ **Detect facial keypoint with a Convolutional Neural Network**
 ![CNN Images](/output_images/cnn_persons.png "Detect facial keypoint with a Convolutional Neural Network")
    
    
 ## Important files
-- 1_Load_and_Visualize_Data.ipynb : Learn to create a data loader and visualize the data
-- data_load.py : Data loader
-- 2_Define_the_Network_Architecture.ipynb : Load, train and validate the convolutional neural network.
-- models.py :The Convolutional neural network
-- 3_Facial_Keypoint_Detection_Complete_Pipeline.ipynb : Test and compare the model with the cascade classifier.
+- **1_Load_and_Visualize_Data.ipynb** : Learn to create a data loader and visualize the data
+- **data_load.py** : The Data loader
+- **2_Define_the_Network_Architecture.ipynb** : Load, train and validate the convolutional neural network.
+- **models.py** : The Convolutional neural network
+- **3_Facial_Keypoint_Detection_Complete_Pipeline.ipynb** : Test and compare the model with the cascade classifier.
     
     
 ## Installation and usage
