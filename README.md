@@ -1,40 +1,34 @@
 # Facial Keypoint Detection
-This project is part of my computer vision course at Udacity. A neural convolution network recognizes faces in images based on learned facial keypoints.
+This project is part of my computer vision course at[ Udacity](https://www.udacity.com/course/computer-vision-nanodegree--nd891). A neural convolution network recognizes faces in images based on learned facial keypoints. 
 These keypoints mark important areas of the face: the eyes, corners of the mouth, the nose, etc. These keypoints are relevant for a variety of tasks, such as face filters, emotion recognition, pose recognition, and so on. 
 
+Likewise the computer vision method hair feature-based cascade uses these features, see [OpenCV-Python tutorial](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_objdetect/py_face_detection/py_face_detection.html).
 
-## Installation and usage
+[PyTorch](https://pytorch.org/), the open source machine learning framework, is used to implement, train and test the convolutional neural network.
 
-Install the integrated development environment for STM32 microcontrollers.    
-[STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)
+### Examples
 
-Create a new folder for your STM32 projects, for example 'stm32_workspace' and clone repository
-```sh
-$ cd <your stm32-workspace folder>
-$ git clone https://github.com/embmike/LED-Monitoring-With-AI.git
-```
+**Detect all faces using Haar Cascade Classifiers using OpenCV**   
 
-Then import the software:   
-Click File > Import > General > Existing Projects into Workspace > Next > Browse to folder 'LED-Monitoring-With-AI > Finish
-
-Install data science tool   
-[Anaconda](https://www.anaconda.com/)
-
-Then create a new anaconda environment and activate
-```sh
-$ conda env create -f env_tf_keras.yml
-$ conda activate tf_keras
-```
-Open keras model and execute    
-Start Anaconda Navigator > Environments > choose 'tf_keras' > Home > Start Spyder IDE > Open file 'env_tf_keras.yml' > Click on 'Run File'
+**Detect facial keypoint with a Convolutional Neural Network**
 
 
 ## Important files
-- keras_dnn_led_monitoring.py : Keras dnn file
-- LED_Monitoring.ioc : STM32CubeMX file for initialization and configuration using a graphical view
-- Core/main.c : Main file of the program
-- X-CUBE-AI/App/app_x-cube-ai.c : dnn in C
-- Core/pil_printer.c : Debug outputs via UART-via-USB
+- 1_Load_and_Visualize_Data.ipynb : Learn to create a data loader and visualize the data
+- data_load.py : Data loader
+- 2_Define_the_Network_Architecture.ipynb : Load, train and validate the convolutional neural network.
+- models.py :The Convolutional neural network
+- 3_Facial_Keypoint_Detection_Complete_Pipeline.ipynb : Test and compare the model with the cascade classifier.
+
+
+## Installation and usage
+Clone the repository
+```sh
+$ cd <your workspace folder>
+$ git clone https://github.com/embmike/Facial-Keypoint-Detection.git
+```
+
+Use the code on your with [Anaconda](https://www.anaconda.com/) or use cloude computing like [Google Colaboratory(https://colab.research.google.com/)
 
 
 ## Licence
