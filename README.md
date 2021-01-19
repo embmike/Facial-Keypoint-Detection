@@ -31,7 +31,7 @@ $ cd <your workspace folder>
 $ git clone https://github.com/embmike/Facial-Keypoint-Detection.git
 ```
 
-You can use the code for example on your computer with [Anaconda](https://www.anaconda.com/) or via cloude computing with [Google Colaboratory](https://colab.research.google.com/)
+You can use the code for example on your computer with [Anaconda](https://www.anaconda.com/) or via cloud computing with [Google Colaboratory](https://colab.research.google.com/)
     
     
 ## Licence
