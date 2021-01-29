@@ -1,5 +1,5 @@
 # Facial Keypoint Detection
-This project is part of my computer vision course of[ Udacity](https://www.udacity.com/course/computer-vision-nanodegree--nd891). A neural convolution network recognizes faces in images based on learned facial keypoints. 
+This project is part of my computer vision course of[ Udacity](https://www.udacity.com/course/computer-vision-nanodegree--nd891). A convolutional neural network recognizes faces in images based on learned facial keypoints. 
 These keypoints mark important areas of the face: the eyes, corners of the mouth, the nose, etc. These keypoints are relevant for a variety of tasks, such as face filters, emotion recognition, pose recognition, and so on. 
 
 Likewise the computer vision method hair feature-based cascade uses these features, see [OpenCV-Python tutorial](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_objdetect/py_face_detection/py_face_detection.html).
@@ -9,10 +9,10 @@ Likewise the computer vision method hair feature-based cascade uses these featur
     
 ### Examples
 
-+ **Detect all faces using Haar Cascade Classifiers using OpenCV**
++ **Detects all faces using Haar Cascade Classifiers using OpenCV**
 ![Cascade Classifiers Images](/output_images/cascade_classifier.png "Detect all faces using Haar Cascade Classifiers using OpenCV")   
 
-+ **Detect facial keypoint with a Convolutional Neural Network**
++ **Detects facial keypoint with a Convolutional Neural Network**
 ![CNN Images](/output_images/cnn_persons.png "Detect facial keypoint with a Convolutional Neural Network")
    
    
